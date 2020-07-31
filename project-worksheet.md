@@ -86,7 +86,9 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 ## Additional Libraries
 Muller.js
-
+Express
+Mongoose
+Morgan
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
