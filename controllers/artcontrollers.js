@@ -3,7 +3,7 @@ const Art = require('../models/artmodel');
 
 const index = async (req,res) =>{
     try{
-        const allArt = await Art.find({}).populate({});
+        const allArt = await Art.find({});
 
         res.status(200).json(allArt);
     }catch(error){

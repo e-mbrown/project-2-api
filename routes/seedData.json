@@ -2,51 +2,65 @@
     {
         "name": "A",
         "medium": "x1",
-        "type":"illustrations",
+        "artType":"Illustration",
         "description": "big boy",
         "url":"https://upload.wikimedia.org/wikipedia/commons/d/d1/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg",
         "context":"apart of the mountain series"
     },
     {
-        "name": "",
-        "medium": "",
-        "type":"",
-        "":""
+        "name": "B",
+        "medium": "x2",
+        "artType":"Comic",
+        "description":"Mountain chan shot one",
+        "page": 1,
+        "genre":"Fantasy",
+        "url":"https://cdn.britannica.com/67/19367-050-885866B4/Valley-Taurus-Mountains-Turkey.jpg"
     },
     {
-        "name": "",
-        "medium": "",
-        "type":"",
-        "":""
+        "name": "BA",
+        "medium": "x2",
+        "artType":"Comic",
+        "description":"Mountain chan shot two",
+        "page": 2,
+        "genre":"Fantasy",
+        "url":"https://cosmosmagazine.com/wp-content/uploads/2020/02/190218-mount-full-1440x810.jpg"
     },
     {
-        "name": "",
-        "medium": "",
-        "type":"",
-        "":""
+        "name": "BB",
+        "medium": "x2",
+        "artType":"Comic",
+        "description":"Mountain chan shot three",
+        "page": 3,
+        "genre":"Fantasy",
+        "url":"https://human-movement.com/wp-content/uploads/2017/02/IMG_1183-1024x576.jpg"
     },
     {
-        "name": "",
-        "medium": "",
-        "type":"",
-        "":""
+        "name": "Doodie",
+        "medium": "x2",
+        "artType":"sketches",
+        "description":"mountain chan gesture",
+        "url": "https://kimvolunteerfoundation.org/wp-content/uploads/2018/09/everest-.jpg"
     },
     {
-        "name": "",
-        "medium": "",
-        "type":"",
-        "":""
+        "name": "scoobie",
+        "medium": "x2",
+        "artType":"sketches",
+        "url":"https://www.holidify.com/images/cmsuploads/compressed/mount-everest_20180710001111.jpg"
     },
     {
-        "name": "",
-        "medium": "",
-        "type":"",
-        "":""
+        "name": "Mountain tree",
+        "medium": "x2",
+        "artType":"Illustration",
+        "description":"trees and mountain chan",
+        "url":"https://lp-cms-production.imgix.net/2019-06/12dec8938220093eb7f1fdb8a9ce40b8-the-rocky-mountains.jpg?fit=crop&q=40&sharp=10&vib=20&auto=format&ixlib=react-8.6.4",
+        "context": "apart of the mountain series"
     },
     {
-        "name": "",
-        "medium": "",
-        "type":"",
-        "":""
-    },
+        "name": "Welcome to tree town",
+        "medium": "x2",
+        "artType":"Illustration",
+        "description":" Tree home",
+        "url": "https://costa-rica-guide.com/wp-content/uploads/2014/12/P2270102.jpg",
+        "context": "Friends of Mountain"
+    }
 ]

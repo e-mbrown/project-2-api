@@ -64,10 +64,10 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Schemas | H | 3.5hr | 45minshr | -hr|
-| Seed.js | M | 2.5hr | -hr | -hr|
-| Routers + Controllers | H | 5hr | 20minshr | -hr|
-| Testing Routes | H | 6hr| -hr | -hr |
+| Schemas | H | 3.5hr | 1 hr | -hr|
+| Seed.js | M | 2.5hr | -hr 20mins | -hr|
+| Routers + Controllers | H | 5hr | -hr 20mins | -hr|
+| Testing Routes | H | 6hr| 1hr 10mins | -hr |
 | Learn about Muller | M | 4hr | -hr | -hr|
 | Testing Upload Feature | H | 4hrs| 2hr | -hr |
 | Reading into Postman | H | 2hr | -hr | -hr|

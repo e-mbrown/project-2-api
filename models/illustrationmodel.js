@@ -7,9 +7,7 @@ const illustrSchema = new Schema ({
     description: {type:String},
     url: {type: String},
     context: {type:String}
-},{
-    options
 })
 
-const illustrexport = Pieces.discriminator('illustrations', illustrSchema)
+const illustrexport = Pieces.discriminator('Illustration', illustrSchema)
 module.exports = illustrexport

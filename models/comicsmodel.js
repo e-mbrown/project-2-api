@@ -4,12 +4,10 @@ const Pieces = require('./artmodel')
 
 const comicSchema = new Schema ({
     description: {type:String},
-    pagecount: {type: Number},
+    page: {type: Number},
     genre: {type: String},
     url: {type: String}
-},{
-    options
 })
 
-const comicexport = Pieces.discriminator('comics', comicSchema)
+const comicexport = Pieces.discriminator('Comic', comicSchema)
 module.exports = comicexport
