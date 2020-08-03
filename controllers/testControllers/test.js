@@ -1,18 +1,12 @@
 const db = require('../../routes/connections');
 const Art = require('../../models/artmodel');
 const illust = require('../../models/illustrationmodel');
+const comics = require('../../models/comicsmodel');
+const sketch = require('../../models/sketchmodel');
+const data = require('../../routes/seedData.json');
 
-let piece = {
-    "name": "Welcome to tree town",
-    "medium": "x2",
-    "artType":"Illustration",
-    "description":" Tree home",
-    "url": "https://costa-rica-guide.com/wp-content/uploads/2014/12/P2270102.jpg",
-    "context": "Friends of Mountain"
-}
+const run = async () => {console.log(await Art.find({}))}
 
-const run = async () => {console.log(await illust.find({}))}
+Art.insertMany(data);
 
-run()
-// console.log(Art.create(piece))
-;
+run();

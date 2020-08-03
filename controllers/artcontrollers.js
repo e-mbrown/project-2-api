@@ -1,15 +1,46 @@
 const Art = require('../models/artmodel');
+const illust = require('../models/illustrationmodel');
+const comics = require('../models/comicsmodel');
+const sketch = require('../models/sketchmodel');
 //const { all } = require('../routes/art');
 
 const index = async (req,res) =>{
     try{
         const allArt = await Art.find({});
-
         res.status(200).json(allArt);
     }catch(error){
         res.status(400).send(error);
     }
 };
+
+const indexC = async (req,res) =>{
+    try{
+        const allcomics = await comics.find({});
+        res.status(200).json(allcomics);
+    }catch(error){
+        res.status(400).send(error);
+    }
+};
+
+const indexI = async (req,res) =>{
+    try{
+        const allArt = await illust.find({});
+        res.status(200).json(allArt);
+    }catch(error){
+        res.status(400).send(error);
+    }
+};
+
+const indexS = async (req,res) =>{
+    try{
+        const allArt = await sketch.find({
+        });
+        res.status(200).json(allArt);
+    }catch(error){
+        res.status(400).send(error);
+    }
+};
+
 
 const create = async (req,res) =>{
     try{
@@ -21,10 +52,44 @@ const create = async (req,res) =>{
     }
 };
 
-const update = async (req,res) =>{
+///Can not change all data
+// const update = async (req,res) =>{
+//     try{
+//         const updateArt = await Art.findByIdAndUpdate(req.params.id, req.body,{
+//             new: true,
+//         });
+//         res.status(200).json(updateArt);
+//     }catch(error){
+//         res.status(400).send(error);
+//     }
+// };
+
+const updateC = async (req,res) =>{
     try{
-        const updateArt = await Art.findByIdAndUpdate(req.params.id, req.body,{
-            new: true
+        const updateArt = await comics.findByIdAndUpdate(req.params.id, req.body,{
+            new: true,
+        });
+        res.status(200).json(updateArt);
+    }catch(error){
+        res.status(400).send(error);
+    }
+};
+
+const updateI = async (req,res) =>{
+    try{
+        const updateArt = await illust.findByIdAndUpdate(req.params.id, req.body,{
+            new: true,
+        });
+        res.status(200).json(updateArt);
+    }catch(error){
+        res.status(400).send(error);
+    }
+};
+
+const updateS = async (req,res) =>{
+    try{
+        const updateArt = await sketch.findByIdAndUpdate(req.params.id, req.body,{
+            new: true,
         });
         res.status(200).json(updateArt);
     }catch(error){
@@ -43,7 +108,12 @@ const destroy = async (req,res) =>{
 
 module.exports={
     index,
+    indexC,
+    indexI,
+    indexS,
     create,
-    update,
+    updateS,
+    updateI,
+    updateC,
     destroy
 }
