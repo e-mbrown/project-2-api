@@ -64,24 +64,22 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Schemas | H | 3.5hr | -hr | -hr|
+| Schemas | H | 3.5hr | 45minshr | -hr|
 | Seed.js | M | 2.5hr | -hr | -hr|
-| Routers + Controllers | H | 5hr | -hr | -hr|
+| Routers + Controllers | H | 5hr | 20minshr | -hr|
 | Testing Routes | H | 6hr| -hr | -hr |
 | Learn about Muller | M | 4hr | -hr | -hr|
 | Testing Upload Feature | H | 4hrs| 2hr | -hr |
 | Reading into Postman | H | 2hr | -hr | -hr|
 | Setting up Gui interaction | H | 3hr | -hr | -hr|
-| Total | H | 30.0hrs| -hrs | -hrs |
+| Deploying the extra boys | H | 4hr | -hr | -hr|
+| Total | H | 34.0hrs| -hrs | -hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Add Schema | L | 1hr | -hr | -hr|
 |Interaction with complex gui | L | 6hr | -hr | -hr|
-
-
-
 | Total | H | 7hrs| -hrs | -hrs |
 
 ## Additional Libraries

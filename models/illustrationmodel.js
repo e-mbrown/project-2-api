@@ -1,9 +1,15 @@
 const mongoose = require('../routes/connections');
 const {Schema, model} = mongoose;
+const Pieces = require('./artmodel')
 
-const illustr = new Schema ({
+
+const illustrSchema = new Schema ({
     description: {type:String},
-    link: {type: String}
+    url: {type: String},
+    context: {type:String}
+},{
+    options
 })
 
-module.exports = model('Illustration', illustr)
+const illustrexport = Pieces.discriminator('illustrations', illustrSchema)
+module.exports = illustrexport
