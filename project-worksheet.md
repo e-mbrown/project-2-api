@@ -68,8 +68,8 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Seed.js | M | 2.5hr | -hr 36mins | -hr 36mins|
 | Routers + Controllers | H | 5hr | 1hr | 1 hr|
 | Testing Routes | H | 6hr| 2hr 59mins | 2hr 59mins |
-| Learn about Muller | M | 4hr | -hr | -hr|
-| Testing Upload Feature | H | 4hrs| 2hr | -hr |
+| Learn about Muller | M | 4hr | 1hr 30mins | -hr|
+| Testing Upload Feature | H | 4hrs| -hr | -hr |
 | Reading into Postman | H | 2hr | -hr | -hr|
 | Setting up Gui interaction | H | 3hr | -hr | -hr|
 | Deploying the extra boys | H | 4hr | -hr | -hr|

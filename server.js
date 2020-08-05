@@ -32,7 +32,8 @@ app.use(morgan("dev"));
 ///Route
 app.use('/api', indexRouter)
 app.use('/art', routes)
-
+//Serves files from public folder /public/images/filename
+app.use('/public', express.static('public'))
 ////listener
 app.listen(port, () =>{
     console.log(`Listening on port ${port}`)
