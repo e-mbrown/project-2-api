@@ -44,6 +44,7 @@ const indexS = async (req,res) =>{
 
 const create = async (req,res) =>{
     try{
+        console.log(req.body)
         const newArt =await Art.create(req.body);
         res.status(200).json(newArt);
 

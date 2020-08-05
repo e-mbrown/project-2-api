@@ -70,9 +70,8 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Testing Routes | H | 6hr| 2hr 59mins | 2hr 59mins |
 | Learn about Muller | M | 4hr | 1hr 30mins | -hr|
 | Testing Upload Feature | H | 4hrs| -hr | -hr |
-| Reading into Postman | H | 2hr | -hr | -hr|
-| Setting up Gui interaction | H | 3hr | -hr | -hr|
-| Deploying the extra boys | H | 4hr | -hr | -hr|
+| Reading into Multer | H | 2hr | 1hr 30min| 1hr 30min|
+| Image upload | H | 4hr | -hr | -hr|
 | Total | H | 34.0hrs| -hrs | -hrs |
 
 #### PostMVP

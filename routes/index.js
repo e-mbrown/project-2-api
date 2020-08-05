@@ -32,7 +32,7 @@ indexRouter.post('/upload',upload.single('file'),function(req, res, next) {
         res.status(500);
         return next(err);
     }
-    res.json({ fileUrl: 'http://192.168.0.7:3000/public/images/' + req.file.filename });
+    res.json({ fileUrl: 'http://localhost:3000/public/images/' + req.file.filename });
     })
 
 
