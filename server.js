@@ -4,6 +4,7 @@ const app = express();
 const cors = require('cors');
 const morgan = require('morgan');
 const routes = require('./routes/art');
+const indexRouter = require('./routes/index');
 ////
 const port = process.env.PORT;
 const NODE_ENV = process.env.NODE_ENV;
@@ -29,7 +30,7 @@ app.use(morgan("dev"));
 
 
 ///Route
-
+app.use('/api', indexRouter)
 app.use('/art', routes)
 
 ////listener

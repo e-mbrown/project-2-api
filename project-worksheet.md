@@ -10,8 +10,8 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |---|---| ---|
 |Day 1| Project Description | Complete
 |Day 1| Wireframes / Priority Matrix / Timeline `backend` and `frontend`| Incomplete
-|Day 2| Working RestAPI | Incomplete
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Day 2| Working RestAPI | Complete
+|Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
 |Day 4| MVP & Bug Fixes | Incomplete
 |Day 5| Final Touches and Present | Incomplete
 
@@ -64,10 +64,10 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Schemas | H | 3.5hr | 1hr 16mins | -hr|
-| Seed.js | M | 2.5hr | -hr 36mins | -hr|
-| Routers + Controllers | H | 5hr | 1hr | -hr|
-| Testing Routes | H | 6hr| 2hr 59mins | -hr |
+| Schemas | H | 3.5hr | 1hr 16mins | 1hr 16mins|
+| Seed.js | M | 2.5hr | -hr 36mins | -hr 36mins|
+| Routers + Controllers | H | 5hr | 1hr | 1 hr|
+| Testing Routes | H | 6hr| 2hr 59mins | 2hr 59mins |
 | Learn about Muller | M | 4hr | -hr | -hr|
 | Testing Upload Feature | H | 4hrs| 2hr | -hr |
 | Reading into Postman | H | 2hr | -hr | -hr|

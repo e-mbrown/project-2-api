@@ -66,9 +66,11 @@ const create = async (req,res) =>{
 
 const updateC = async (req,res) =>{
     try{
+        console.log(req.params.id, req.body)
         const updateArt = await comics.findByIdAndUpdate(req.params.id, req.body,{
             new: true,
         });
+        console.log(updateArt)
         res.status(200).json(updateArt);
     }catch(error){
         res.status(400).send(error);
