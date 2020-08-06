@@ -31,7 +31,9 @@ app.use(morgan("dev"));
 ///Route
 
 app.use('/art', routes)
-
+app.get("/", (req, res) => {
+    res.send("If you see this then the server is working!");
+  });
 ////listener
 app.listen(port, () =>{
     console.log(`Listening on port ${port}`)
