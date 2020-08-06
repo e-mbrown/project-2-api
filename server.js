@@ -5,6 +5,9 @@ const cors = require('cors');
 const morgan = require('morgan');
 const routes = require('./routes/art');
 const indexRouter = require('./routes/index');
+const AWSrouter = require('./routes/AWS')
+
+
 ////
 const port = process.env.PORT;
 const NODE_ENV = process.env.NODE_ENV;
@@ -30,6 +33,7 @@ app.use(morgan("dev"));
 
 
 ///Route
+app.use('/sign-s3', AWSrouter)
 app.use('/api', indexRouter)
 app.use('/art', routes)
 //Serves files from public folder /public/images/filename
