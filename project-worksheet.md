@@ -9,7 +9,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |  Day | Deliverable | Status
 |---|---| ---|
 |Day 1| Project Description | Complete
-|Day 1| Wireframes / Priority Matrix / Timeline `backend` and `frontend`| Incomplete
+|Day 1| Wireframes / Priority Matrix / Timeline `backend` and `frontend`| Complete
 |Day 2| Working RestAPI | Complete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
 |Day 4| MVP & Bug Fixes | Complete
@@ -70,8 +70,8 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Testing Routes | H | 6hr| 2hr 59mins | 2hr 59mins |
 | Learn and set up Multer | M | 4hr | 2hr | 2hr |
 | Testing Upload Feature | H | 4hrs| 2hr | 2hr |
-| Deploying Multer on Heroku | H | 4hr | -hr | -hr|
-| Total | H | 29.0hrs| 9hrs 51mins | -hrs |
+| Using AWS with Heroku | H | 4hr | 6hr | 6hr|
+| Total | H | 29.0hrs| 15hrs 51mins | 15hrs 51mins |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
@@ -82,6 +82,8 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 ## Additional Libraries
 Muller.js
+aws-sdk
+ejs
 Express
 Mongoose
 Morgan
@@ -90,15 +92,15 @@ Morgan
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+//Its not a lot but making this work made my whole project possible.
+discriminatorKey: 'artType'
+const comicexport = Pieces.discriminator('Comic', comicSchema)
 ```
 
 ## Issues and Resolutions
  Use this section to list of all major issues encountered and their resolution.
 
-#### SAMPLE.....
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
-**RESOLUTION**: Missing comma after first object in sources {} object
+#### I didnt have many issues
+**ERROR**: Pieces.discriminator() is not a function                             
+**RESOLUTION**: I spelled discriminator wrong, and had to rename the key.
 
