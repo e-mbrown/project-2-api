@@ -12,7 +12,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Day 1| Wireframes / Priority Matrix / Timeline `backend` and `frontend`| Incomplete
 |Day 2| Working RestAPI | Complete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
-|Day 4| MVP & Bug Fixes | Incomplete
+|Day 4| MVP & Bug Fixes | Complete
 |Day 5| Final Touches and Present | Incomplete
 
 ## Project Description
@@ -64,15 +64,14 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Schemas | H | 3.5hr | 1hr 16mins | 1hr 16mins|
+| Schemas | H | 3.5hr | 1hr 16mins |  1hr 16mins |
 | Seed.js | M | 2.5hr | -hr 36mins | -hr 36mins|
-| Routers + Controllers | H | 5hr | 1hr | 1 hr|
+| Routers + Controllers | H | 5hr | 1hr | 1hr|
 | Testing Routes | H | 6hr| 2hr 59mins | 2hr 59mins |
-| Learn about Muller | M | 4hr | 1hr 30mins | -hr|
-| Testing Upload Feature | H | 4hrs| -hr | -hr |
-| Reading into Multer | H | 2hr | 1hr 30min| 1hr 30min|
-| Image upload | H | 4hr | -hr | -hr|
-| Total | H | 34.0hrs| -hrs | -hrs |
+| Learn and set up Multer | M | 4hr | 2hr | 2hr |
+| Testing Upload Feature | H | 4hrs| 2hr | 2hr |
+| Deploying Multer on Heroku | H | 4hr | -hr | -hr|
+| Total | H | 29.0hrs| 9hrs 51mins | -hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
@@ -103,6 +102,3 @@ function reverse(string) {
 **ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
 **RESOLUTION**: Missing comma after first object in sources {} object
 
-## Previous Project Worksheet
- - [Readme's](https://github.com/jkeohan/fewd-class-repo/tree/master/final-project-worksheet/project-worksheet-examples)
- - [Best of class readme](https://github.com/jkeohan/fewd-class-repo/blob/master/final-project-worksheet/project-worksheet-examples/portfolio-gracie.md)
